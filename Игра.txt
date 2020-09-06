@@ -1,0 +1,25 @@
+1) SSH
+	1) для удалленного подключения вводим ssh username@host/ip -p 2220, потом пассф=ворд
+ssh bandit8@bandit.labs.overthewire.org -p 2220
+
+2) cat ./
+3) cat spa tab
+4) cd hiden
+5) find . - type f | xargs file
+find -type f -size 1033c
+find / -type f -user bandit7 -group bandit6 -size 33c
+cat ./data.txt | grep millionth     ///  cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+sort data.txt | uniq -u  //// UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+strings data.txt | grep =  ////// truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+base64 -d data.txt ///  IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+//5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
+
+
+
+
+
+
+
+
+
